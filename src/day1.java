@@ -10,7 +10,7 @@ public class day1 {
     public day1(){
 
         //1
-        try (BufferedReader br = new BufferedReader(new FileReader("/resources/inputs.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("resources/inputs.txt"))) {
             String line;
             int increases = 0;
             int oldDepth = -1;
